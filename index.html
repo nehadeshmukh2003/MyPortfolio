@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neha Deshmukh — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h2>Hello, I'm <span>Neha Deshmukh</span></h2>
+    <h3 class="typing"></h3>
+    <p>Information Technology Engineer | SIH Finalist | Full-Stack & Cloud Enthusiast</p>
+    <a href="Resume.pdf" class="btn">Download Resume</a>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section glass">
+  <h2 class="title">About Me</h2>
+  <p>
+    I am an aspiring full-stack developer passionate about building real-world
+    systems. Experienced in Java, Python, and cloud platforms. My projects bring technology and
+    usability together — from health prediction apps to digital libraries.
+  </p>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="section">
+  <h2 class="title">Skills</h2>
+  <div class="skill"><p>Java | Python | C++</p><div class="bar"><span style="width:85%"></span></div></div>
+  <div class="skill"><p>HTML | CSS | JavaScript</p><div class="bar"><span style="width:90%"></span></div></div>
+  <div class="skill"><p>MySQL | DBMS</p><div class="bar"><span style="width:78%"></span></div></div>
+  <div class="skill"><p>Google Cloud | Salesforce</p><div class="bar"><span style="width:70%"></span></div></div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects" class="section glass">
+  <h2 class="title">Projects</h2>
+
+  <div class="cards">
+    <div class="card" data-project="disease">
+      <h3>Multiple Disease Prediction App</h3>
+      <p>AI–powered health prediction using ML</p>
+      <button class="card-btn">View Details</button>
+    </div>
+
+    <div class="card" data-project="ayurveda">
+      <h3>Vedvritti · Ayurveda E-Library</h3>
+      <p>Digital platform preserving ancient medical knowledge</p>
+      <button class="card-btn">View Details</button>
+    </div>
+
+    <div class="card" data-project="toy">
+      <h3>Toy Rental System</h3>
+      <p>Subscription-based online toy renting platform</p>
+      <button class="card-btn">View Details</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MODAL POPUP ===== -->
+<div id="projectModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="projectTitle"></h2>
+    <p id="projectDesc"></p>
+  </div>
+</div>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section">
+  <h2 class="title">Contact</h2>
+  <div class="contact-box">
+    <p><i class="fa-solid fa-phone"></i> 8669916852</p>
+    <p><i class="fa-solid fa-envelope"></i> deshmukhneha843@gmail.com</p>
+    <p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/neha-deshmukh-170a1b290</p>
+    <p><i class="fa-brands fa-github"></i> github.com/nehadeshmukh2003</p>
+  </div>
+</section>
+
+<footer>©2025 Neha Deshmukh — All Rights Reserved</footer>
+</body>
+</html>
